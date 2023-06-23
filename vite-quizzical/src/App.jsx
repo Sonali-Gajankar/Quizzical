@@ -1,6 +1,7 @@
 import React from "react";
 import Question from "./Questions";
 import {nanoid} from "nanoid"
+import Confetti from "react-confetti"
 
 function App() {
 
@@ -81,6 +82,7 @@ function App() {
 
   return (
     <main>
+      {correctCount == 5 && <Confetti />}
       {
       startGame ? 
       <div className="main-content">
