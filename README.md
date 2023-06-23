@@ -7,6 +7,7 @@ Upon which the game will evaluate the number of correct responses and ask if the
 ## UI
 
 - Home Screen
+
 ![](./vite-quizzical/src/assets/img1.PNG)
 - Game Page
 ![](./vite-quizzical/src/assets/img2.PNG)
