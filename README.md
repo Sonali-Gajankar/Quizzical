@@ -1,4 +1,4 @@
-# Quizzical
+# [Quizzical](https://fanciful-cucurucho-60dab9.netlify.app/)
 General Trivia Game built using React.
 
 Game fetches 5 multiple choice questions from "Open Trivia Database" for each game. User can select only one choice from the available options and submit their responses once they are done.
