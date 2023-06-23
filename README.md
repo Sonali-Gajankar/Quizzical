@@ -7,10 +7,10 @@ Upon which the game will evaluate the number of correct responses and ask if the
 ## UI
 
 - Home Screen
-![](./vite-quizzical/src/assets/img1.png)
+![](./vite-quizzical/src/assets/img1.PNG)
 - Game Page
-![](./vite-quizzical/src/assets/img2.png)
+![](./vite-quizzical/src/assets/img2.PNG)
 - Check Answers
-![](./vite-quizzical/src/assets/img3.png)
+![](./vite-quizzical/src/assets/img3.PNG)
 - Successfully answering all questions correctly
-![](./vite-quizzical/src/assets/img4.png)
+![](./vite-quizzical/src/assets/img4.PNG)
