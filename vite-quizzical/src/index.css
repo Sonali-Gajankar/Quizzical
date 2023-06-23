@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("assets/intro-page.svg") no-repeat center;
+  background-size: cover;
+  font-family: 'Karla';
+  color: #293264;
+}
+
+#root {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-content {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-content >h1 {
+  margin-bottom: 7px;
+}
+
+.main-content >p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  width: 195px;
+  height: 52px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #F5F7FB;
+  cursor: pointer;
+}
+
+.form-elements {
+  /* padding: 40px 75px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  color: #293264;
+  max-width: 800px;
+  height: 100%;
+  width: 100%;
+}
+
+.result_play_btn {
+  display: flex;
+  justify-items: flex-start;
+}
+
+
+.radio-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radios {
+  margin-bottom: 20px;;
+}
+
+.question {
+  margin-bottom: 12px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.question-radio-btn{
+  display: none;
+}
+
+.question-radio-label {
+  border: 0.8px solid #4D5B9E;
+  background: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 13px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+
+  text-align: center;
+}
+
+.question-radio-btn:checked + label {
+  background: #D6DBF5;
+  border: none;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+.form-btn {
+  background: #4D5B9E;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 120px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #F5F7FB;
+}
+
+.red {
+  background: #F8BCBC;
+}
+
+.green {
+  background: #94D7A2;
+}
+
+@media screen and (max-width: 760px) {
+  .form-elements {
+    max-width: 340px;
+  }
+
+  .radios {
+    margin-bottom: 20px;;
+  }
+
+  .radio-section {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+} 
